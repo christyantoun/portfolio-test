@@ -1,8 +1,6 @@
 import { styles } from "../styles";
-import { jobit } from "../assets";
 import { Link, useParams } from "react-router-dom";
 import { projects } from "../constants";
-import ReactPlayer from "react-player";
 
 export const ProjectDetails = () => {
   let { name } = useParams();
