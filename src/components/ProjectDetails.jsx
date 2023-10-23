@@ -35,8 +35,8 @@ export const ProjectDetails = () => {
           ))}
         </div>
       </div>
-      <div className='flex flex-row justify-between w-full'>
-        <div className='w-fit'>
+      <div className='flex flex-row justify-between  flex-wrap'>
+        <div className='w-fit max-w-[600px] mb-10'>
           <div className='mb-10 w-fit'>
             <p
               className={`text-white font-black md:text-[40px] sm:text-[30px] xs:text-[20px] text-[20px]`}>
@@ -63,7 +63,7 @@ export const ProjectDetails = () => {
         </div> */}
           </div>
         </div>
-        <div className='rounded-2xl -mt-10 w-full'>
+        <div className='rounded-2xl w-full max-w-[700px] lg:-mt-20'>
           {currentProject.video && (
             <iframe
               className='rounded-2xl'
