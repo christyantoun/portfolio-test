@@ -66,10 +66,10 @@ export const ProjectDetails = () => {
         <div className='rounded-2xl w-full max-w-[700px] lg:-mt-20'>
           {currentProject.video && (
             <iframe
-              className='rounded-2xl'
+              className='rounded-2xl max-w-[700px]'
               allowfullscreen='allowfullscreen'
               frameborder='no'
-              width='700'
+              width="100%"
               height='400'
               src='https://wideo.co/embed/34065791623620986413?width=768&height=432&repeat=true&autoplay=true&hideControls=false'></iframe>
           )}
